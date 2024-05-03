@@ -1,0 +1,158 @@
+
+
+/* ------------- sidebar component ----------- */
+
+.sidebar {
+    background-color: #f0f4f9;
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 30px 15px 0 10px;
+    transition: width 0.3s;
+  }
+  
+  .menu {
+    width: 30px;
+    margin-left: 5px;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .chat {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 60px;
+    border-radius: 50px;
+    background-color: #e5eaf1;
+    padding: 10px 12px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .chat img {
+    width: 20px;
+  }
+  
+  .chat p {
+    margin-left: 10px;
+    text-transform: capitalize;
+    white-space: nowrap; 
+    color: #a1aab4;
+  }
+
+  .recent{
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 1.5s;
+  }
+  
+  .recent .recent-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+  
+  .recent .what {
+    display: flex;
+    align-items: center;
+    padding: 10px ;
+    gap: 10px;
+    border-radius: 50px;
+    text-transform: capitalize;
+  }
+  
+  .recent .what:hover{
+    background-color: #e2e6eb;
+    cursor: pointer;
+  }
+  
+  .recent .what img {
+    width: 22px;
+    margin-left: 5px;
+  }
+  
+  .recent .what p {
+   white-space: nowrap;
+}
+
+ 
+  
+  .down {
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: auto;
+  }
+  
+  .down .help,
+  .down .activity,
+  .down .setting {
+    display: flex;
+    padding: 5px 0;
+    border-radius: 50px;
+  }
+  
+  .down .help img,
+  .down .activity img,
+  .down .setting img {
+    width: 25px;
+    margin-left: 5px;
+  }
+  
+  .down .help p,
+  .down .activity p,
+  .down .setting p {
+    text-transform: capitalize;
+    margin-left: 7px;
+  }
+  
+  .down .help:hover,
+  .down .activity:hover,
+  .down .setting:hover {
+    background-color: #e2e6eb;
+    cursor: pointer;
+  }
+
+
+  @media (max-width: 890px) {
+    .sidebar{
+      height: 130vh;
+    }
+  }
+
+
+  @media (max-width: 800px) {
+    .sidebar{
+      height: 140vh;
+    }
+  }
+
+  
+
+  
+  @media (max-width: 600px) {
+    .sidebar{
+      display: none;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

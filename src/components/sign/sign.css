@@ -1,0 +1,170 @@
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+/* --------------- sign up ---------------------- */
+
+.sign-up-form,.sign-in-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.back-left:after,.back-right:after {
+    content: "";
+    position: absolute;
+    height: 1500px;
+    width: 2000px;
+    top: -10%;
+    right: 48%;
+    transform: translateY(-50%);
+    background-color:#9ed7ff;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+  .back-left h2{
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 200px;
+  }
+
+  .back-left p{
+    text-transform: capitalize;
+    font-size: 18px;
+    max-width: 400px;
+    margin-left: 30px;
+   margin-top: 20px;
+   text-align: center;
+  }
+
+  .back-left button,.back-right button{
+   background-color: transparent;
+   border: 1px black solid ;
+   border-radius: 50px;
+   padding: 10px 30px;
+   cursor: pointer;
+   font-size: 15px;
+   margin-left: 170px;
+   margin-top: 20px;
+  }
+
+  .right,.left{
+   margin-right: 200px;
+   margin-top: 170px;
+  }
+
+  .right h2,.left h2{
+    text-transform: capitalize;
+    font-size: 45px;
+    text-align: center;
+  }
+
+  form{
+    margin-top: 30px;
+  }
+
+  form input{
+    display: flex;
+    flex-direction: column;
+    background-color: #b8dbf5b3;
+    margin: 10px 0;
+    padding: 15px;
+    width: 300px;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+  }
+
+  form button{
+    background-color: #9ed7ff;
+   border-radius: 50px;
+   padding: 10px 30px;
+   cursor: pointer;
+   font-size: 15px;
+   border: none;
+   font-weight: 600;
+   color: white;
+   text-transform: capitalize;
+   margin-left: 90px;
+  }
+
+  form p{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+  }
+
+  .let{
+    margin-left: 4px;
+    color: #9ed7ff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  /* ------------- sign in ------------------ */
+
+
+  .back-right h2{
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-left: 75px;
+    margin-top: 230px;
+  }
+
+  .back-right p{
+    text-transform: capitalize;
+    font-size: 18px;
+    max-width: 400px;
+    margin-left: 30px;
+   text-align: center;
+   margin-top: 20px;
+  }
+
+  .log{
+    margin-left: 100px;
+  }
+
+
+  
+
+
+
+  @media (max-width:1000px) {
+    .sign-up-form,.sign-in-form{
+      flex-direction: column;
+    }
+
+    .right,.left{
+      margin: auto;
+      transform: translateY(160px);
+      padding-bottom: 70px;
+    }
+
+    .back-left h2{
+      margin-top: 220px;
+    }
+
+  
+  }
