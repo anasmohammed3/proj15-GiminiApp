@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/proj15-GiminiApp/static/css/main.cb8ac5e3.css",
+    "main.js": "/proj15-GiminiApp/static/js/main.3a32aa16.js",
+    "static/js/453.167aa524.chunk.js": "/proj15-GiminiApp/static/js/453.167aa524.chunk.js",
+    "static/media/user_icon.png": "/proj15-GiminiApp/static/media/user_icon.f7246cf63ea4770075ea.png",
+    "static/media/login.png": "/proj15-GiminiApp/static/media/login.3070416121de35f83507.png",
+    "static/media/signout.png": "/proj15-GiminiApp/static/media/signout.a05dda0512ee01028c33.png",
+    "static/media/gallery_icon.png": "/proj15-GiminiApp/static/media/gallery_icon.1da1416be560b7741007.png",
+    "index.html": "/proj15-GiminiApp/index.html",
+    "main.cb8ac5e3.css.map": "/proj15-GiminiApp/static/css/main.cb8ac5e3.css.map",
+    "main.3a32aa16.js.map": "/proj15-GiminiApp/static/js/main.3a32aa16.js.map",
+    "453.167aa524.chunk.js.map": "/proj15-GiminiApp/static/js/453.167aa524.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb8ac5e3.css",
+    "static/js/main.3a32aa16.js"
+  ]
+}
